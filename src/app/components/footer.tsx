@@ -29,7 +29,7 @@ const Footer = () => {
                     </div>
                     <div className='xs:text-sm md:text-lg xs:mt-6'>
                         <h3 className='md:text-2xl xs:text-lg font-bold'>Follow Us</h3>
-                        <div className='flex gap-2 mt-2 md:mx-auto xs:mx-28'>
+                        <div className='flex gap-2 mt-2 md:mx-auto xs:mx-32px'>
                             <Image src="/facebook.png" height={5} width={20} alt="facebook"></Image>
                             <p>Facebook</p>
                         </div>
