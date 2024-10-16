@@ -29,15 +29,15 @@ const Footer = () => {
                     </div>
                     <div className='xs:text-sm md:text-lg xs:mt-6'>
                         <h3 className='md:text-2xl xs:text-lg font-bold'>Follow Us</h3>
-                        <div className='flex gap-2 mt-2 md:mx-auto xs:mx-32'>
+                        <div className='flex gap-2 mt-2 md:mx-auto xs:mx-36'>
                             <Image src="/facebook.png" height={5} width={20} alt="facebook"></Image>
                             <p>Facebook</p>
                         </div>
-                        <div className='flex gap-2 mt-2 md:mx-auto xs:mx-28'>
+                        <div className='flex gap-2 mt-2 md:mx-auto xs:mx-36'>
                             <Image src="/linkedin.png" height={5} width={20} alt="linkedin"></Image>
                             <p>Linkedin</p>
                         </div>
-                        <div className='flex gap-2 mt-2 md:mx-auto xs:mx-28'>
+                        <div className='flex gap-2 mt-2 md:mx-auto xs:mx-36'>
                             <Image src="/youtube.png" height={5} width={20} alt="youtube"></Image>
                             <p>Youtube</p>
                         </div>
