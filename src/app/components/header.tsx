@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <header className='relative'>
         <div className='flex justify-between m-3'>
-            <Image src="/logo.png" height={10} width={80} alt={"logo"} className='fixed top-0 left-0 bg-gray-200 w-[466px] pr-96 pl-3 md:block xs:hidden'></Image>
+            <Image src="/Logo.png" height={10} width={80} alt={"logo"} className='fixed top-0 left-0 bg-gray-200 w-[466px] pr-96 pl-3 md:block xs:hidden'></Image>
             <div className='fixed top-0 right-0 bg-gray-200 p-5 lg:pl-[500px] md:pl-[240px] 2xl:pl-[700px] xs:hidden md:flex'>
                 <ul className='flex gap-[25px] text-indigo-900 cursor-pointer'>
                     <li className='text-red-700 hover:text-red-400'>Home</li>
@@ -25,7 +25,7 @@ const Header = () => {
                     </li>
                 </ul>
             </div>
-            <Image src="/logo.png" height={8} width={50} alt={"logo"} className='fixed top-0 left-0 bg-gray-200 w-[199px] pr-40 md:hidden'></Image>
+            <Image src="/Logo.png" height={8} width={50} alt={"logo"} className='fixed top-0 left-0 bg-gray-200 w-[199px] pr-40 md:hidden'></Image>
             <div className='md:hidden fixed top-0 right-0 bg-gray-200 xs:pl-[72%]'>
                 <FaHome style={{fontSize: '34px', color: 'indigo', marginTop: '5px'}} onClick={handleMenu}/>
                 {menu && (<div className='absolute right-4'>
